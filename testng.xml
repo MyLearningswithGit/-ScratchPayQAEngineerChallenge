@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation for Scenario 1 and Scenario 2 For Scratch Pay Financial">
+
+	<listeners>
+		<listener class-name="com.scratchpay.ExtentReportListener.ExtentReporterListener" />
+	</listeners>
+
+	<test name="API Automation">
+		<classes>
+			<class name="com.scratchpay.APITests.APITests"></class>
+			<class name="com.scratchpay.ApplicationTests.ApplicationTests"></class>
+		</classes>
+	</test>
+</suite>
