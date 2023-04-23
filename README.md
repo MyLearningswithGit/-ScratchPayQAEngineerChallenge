@@ -1,7 +1,7 @@
 
 # Scratch Pay QA Engineer Challenge - Solution
 
-The challenge is divided into two task:
+The challenge is divided into two tasks:
  
     1. Application tests
     2. API Tests 
@@ -34,7 +34,7 @@ The challenge is divided into two task:
  - Click on Import and import exisiting maven project 
  - There are two ways to run the project after build is complete: 
     - Right click on testng.xml file, click on Run As -> TestNG Suite
-    - Right Click on individual classes and run the project in order to view the rests. 
+    - Right Click on individual test classes and run the test in order to view the results. 
  - Once you run the tests using testng.xml a html test report is generated under "test-output" folder by name ScratchPayAPIAutomation.html. Please open it in order to view the results.
 
 NOTE: Before running please make sure to run the QA Challenge project on your local before running the "ApplicationTests.java" in order for test to pass. 
